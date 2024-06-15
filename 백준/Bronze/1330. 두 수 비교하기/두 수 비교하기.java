@@ -8,7 +8,7 @@ import java.util.Scanner;
             sc.close();
             
             if(a>b)System.out.println(">");
-            else if(a==b)System.out.println("==");
-            else System.out.println("<");
+            if(a==b)System.out.println("==");
+            if(a<b)System.out.println("<");
         }
     }
