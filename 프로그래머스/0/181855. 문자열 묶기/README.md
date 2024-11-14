@@ -1,10 +1,10 @@
 # [level 0] 문자열 묶기 - 181855 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181855) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181855?language=cpp) 
 
 ### 성능 요약
 
-메모리: 111 MB, 시간: 6.45 ms
+메모리: 15.1 MB, 시간: 5.35 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 05일 23:13:59
+2024년 11월 15일 00:34:57
 
 ### 문제 설명
 
