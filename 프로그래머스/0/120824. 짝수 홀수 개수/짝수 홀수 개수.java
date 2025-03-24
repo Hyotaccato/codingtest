@@ -1,21 +1,16 @@
 class Solution {
     public int[] solution(int[] num_list) {
-        int[] answer = new int[2];
-        int left = 0;
-        int right = 0;
-        
-        for(int i = 0; i < num_list.length; i++){
+        int num_even = 0;
+        int num_odd = 0;
+        for(int i=0; i<num_list.length; i++){
             if(num_list[i]%2==0){
-                left++;
+                num_even ++;
             }
             else{
-                right++;
+                num_odd ++;
             }
         }
-        answer[0] = left;
-        answer[1] = right;
-        
-        
+        int[] answer = {num_even, num_odd};
         return answer;
     }
 }
